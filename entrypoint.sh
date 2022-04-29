@@ -1,3 +1,3 @@
 #!/bin/bash
 
-hub release create -a ./${APP_FOLDER}/build/outputs/apk/debug/app-debug.apk -m "${RELEASE_TITLE} - v${VERSION_NAME}" $(date +%Y%m%d%H%M%S)
+hub release create -a ./${APP_FOLDER}/build/outputs/apk/debug/app-debug.apk -m "${RELEASE_TITLE} -v${VERSION_NAME}" $(date +%Y%m%d%H%M%S)
